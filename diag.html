@@ -5,9 +5,12 @@
   <body>
     <h1>Hwllo sky</h1>
     <p id='diag'></p>
+    <p>Is weixing?</p>
+    <p id='res'></p>
   </body>
    <script>
-      console.log('123')
+      console.log('123');
       document.getElementById('diag').innerText=navigator.platform + navigator.userAgent;
+      document.getElementById('res').innerText=navigator.userAgent.indexOf('MicroMessenger')
     </script>
   </html>
