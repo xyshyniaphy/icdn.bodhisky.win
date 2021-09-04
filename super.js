@@ -5131,10 +5131,11 @@
             }, {
                 key: "check",
                 value: function(t, e) {
-                    if(this.get(t).event.indexOf("死")>=0){
-                        console.log('免死')
-                        return false;
-                    }
+                    console.log('event ',this.get(t).event)
+                    // if(this.get(t).event.indexOf("死")>=0){
+                    //     console.log('免死')
+                    //     return false;
+                    // }
                     var r = this.get(t)
                       , n = r.include
                       , i = r.exclude;
